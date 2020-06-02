@@ -1,0 +1,105 @@
+
+
+.intro div h1{
+    font-size: 50px;
+    margin-left: 30px;
+}
+
+.intro div p{
+    margin-left: 30px;
+    margin-right: 30px;
+    line-height: 170%;
+}
+
+.intro div .intro-text{
+    min-width: 700px;
+}
+
+.intro div .button{
+    background-image:
+    linear-gradient(
+      to top right, 
+      #c71e22,#613ac1
+    );
+    width: 200px;
+    height: 60px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    box-shadow: 0px 0px 0px;
+    border-radius: 35px;
+    margin: 30px;
+}
+
+.intro div .button a{
+   text-decoration: none; 
+   color: white;
+}
+
+
+.button :hover{
+    background-image:
+    linear-gradient(
+      to top right, 
+      #613ac1,#c71e22
+    );
+    width: 200px;
+    height: 60px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 35px;
+}
+   
+.menu{
+    width: 1200px;
+    margin: 70px auto;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.menu div{
+    width: 400px;
+}
+
+.menu img{
+    width: 200px;
+}
+
+.menu .button{
+    background-image:
+    linear-gradient(
+      to top right, 
+      #c71e22,#613ac1
+    );
+    width: 200px;
+    height: 60px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    box-shadow: 0px 0px 0px;
+    border-radius: 35px;
+    margin: 30px auto;
+}
+
+.menu .button a{
+    text-decoration: none; 
+    color: white;
+}
+
+.choix{
+    text-align: center;
+    width: 1200px;
+    margin: 70px auto;
+    padding: 30px;
+}
+
+
+
